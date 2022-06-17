@@ -1,0 +1,8 @@
+apt update
+apt install sudo -y
+sudo apt-get install ufw -y
+sudo ufw enable
+sudo ufw status
+ufw status verbose
+sudo ufw allow 443
+ufw status verbose
